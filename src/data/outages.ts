@@ -1,0 +1,14 @@
+import type { Outage } from '../types';
+
+export const seedOutages: Outage[] = [
+  { id:'OUT-1042', area:'North Loop', address:'Washington Ave N', reportedAt:'2026-10-08T13:22:00', customers:482, severity:'Critical', status:'Active', cause:'Equipment failure', crew:'Crew 07', estimatedRestoration:'16:30', x:31, y:27, notes:'Transformer fault reported near commercial corridor.' },
+  { id:'OUT-1041', area:'Uptown', address:'Hennepin Ave S', reportedAt:'2026-10-08T12:48:00', customers:216, severity:'High', status:'Crew Dispatched', cause:'Vegetation', crew:'Crew 12', estimatedRestoration:'15:45', x:40, y:68, notes:'Tree limb contacting distribution line.' },
+  { id:'OUT-1040', area:'Northeast', address:'Central Ave NE', reportedAt:'2026-10-08T11:36:00', customers:164, severity:'High', status:'Investigating', cause:'Unknown', crew:'Unassigned', estimatedRestoration:'Pending', x:71, y:24, notes:'Multiple customer reports; cause under investigation.' },
+  { id:'OUT-1039', area:'Powderhorn', address:'Chicago Ave S', reportedAt:'2026-10-08T10:14:00', customers:87, severity:'Moderate', status:'Crew Dispatched', cause:'Equipment failure', crew:'Crew 03', estimatedRestoration:'14:20', x:66, y:78, notes:'Service interruption affecting several blocks.' },
+  { id:'OUT-1038', area:'Downtown East', address:'S 4th St', reportedAt:'2026-10-08T09:58:00', customers:53, severity:'Moderate', status:'Investigating', cause:'Weather', crew:'Crew 09', estimatedRestoration:'15:00', x:57, y:44, notes:'Voltage irregularity reported after storm.' },
+  { id:'OUT-1037', area:'Longfellow', address:'E Lake St', reportedAt:'2026-10-08T08:17:00', customers:31, severity:'Low', status:'Active', cause:'Unknown', crew:'Unassigned', estimatedRestoration:'Pending', x:81, y:69, notes:'Isolated service disruption.' },
+  { id:'OUT-1036', area:'Linden Hills', address:'W 43rd St', reportedAt:'2026-10-08T07:44:00', customers:0, severity:'Low', status:'Resolved', cause:'Scheduled maintenance', crew:'Crew 05', estimatedRestoration:'Completed', x:18, y:81, notes:'Scheduled maintenance completed successfully.' },
+  { id:'OUT-1035', area:'University', address:'University Ave SE', reportedAt:'2026-10-08T06:20:00', customers:0, severity:'Moderate', status:'Resolved', cause:'Vegetation', crew:'Crew 02', estimatedRestoration:'Completed', x:83, y:41, notes:'Vegetation cleared; service restored.' },
+  { id:'OUT-1034', area:'Bryn Mawr', address:'Penn Ave N', reportedAt:'2026-10-07T22:03:00', customers:128, severity:'High', status:'Active', cause:'Equipment failure', crew:'Crew 11', estimatedRestoration:'17:00', x:17, y:42, notes:'Overnight cable fault; restoration work in progress.' },
+  { id:'OUT-1033', area:'Whittier', address:'Nicollet Ave', reportedAt:'2026-10-07T20:33:00', customers:0, severity:'Low', status:'Resolved', cause:'Weather', crew:'Crew 06', estimatedRestoration:'Completed', x:45, y:59, notes:'Service restored.' }
+];
