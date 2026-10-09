@@ -6,6 +6,7 @@ A responsive frontend portfolio project for exploring fictional electric-utility
 
 <!-- Add a real screenshot after testing: screenshots/dashboard-desktop.png -->
 
+
 ## Features
 
 - Dashboard cards summarizing active outages, affected customers, dispatched crews, and resolved reports
@@ -89,21 +90,13 @@ src/
 
 ## Screenshots
 
-After confirming the UI works, add your own captures here:
+## Screenshots
 
-- `screenshots/dashboard-desktop.png` — desktop dashboard and map
-- `screenshots/dashboard-mobile.png` — mobile layout
-- `screenshots/outage-details.png` — selected incident and details
-
-Then replace the placeholder near the top with:
-
-```markdown
+### Desktop Dashboard
 ![GridView desktop dashboard](screenshots/dashboard-desktop.png)
-```
 
-## Code sample and contributions
-
-This project began as an AI-assisted portfolio starter and is being reviewed and refined for a job application. **Do not describe generated starter code as independently authored.** Before submitting, review each relevant component, make meaningful changes yourself, run the tests, and be prepared to explain your decisions. Add a short, accurate description of your personal changes here (for example, a map interaction you improved or an accessibility bug you fixed). Do not include any code or data from a previous employer.
+### Mobile Dashboard
+![GridView mobile dashboard](screenshots/dashboard-mobile.png)
 
 ## Third-party services
 
